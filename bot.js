@@ -7,10 +7,10 @@ const rollDice6 = () => Math.floor(Math.random() * 6) + 1;
 const rollDice100 = () => Math.floor(Math.random() * 100) + 1;
 
 //nodemon bot.js
-client.login(config.DISCORD_BOT.TOKEN);
+client.login("NjkyMjc4NjQxNjcyOTc4NDYy.XnxJhA.DmC3HIcpYmsrxq3jkBGr4zLl808");
 
 client.on('ready', () => {
-    console.log(`${client.user.tag} has logged in.`)
+    console.log(`Bot has logged in.`)
 });
 
 
